@@ -20,7 +20,10 @@ def get_mae(max_leaf_nodes, predictors_train, predictors_val, targ_train, targ_v
     mae = mean_absolute_error(predict_y,targ_val)
     return mae
 
-main_file_path = '/Users/mairong/mr_py/kaggle_tutorial/dataset/train.csv'
+# work dir:
+# main_file_path = '/Users/mairong/mr_py/kaggle_tutorial/dataset/train.csv'
+# home dir:
+main_file_path = '/Users/MaiRong/study/learning/python/ml_proto/kaggle_tutorial/dataset/train.csv'
 data = pd.read_csv(main_file_path)
 # print('hello world')
 # print(data.describe())
